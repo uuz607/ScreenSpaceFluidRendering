@@ -9,7 +9,7 @@ float3 getViewPos(int2 texelCoord)
 {   
     float2 uv = float2(texelCoord) / float2(fluidParams.screenSize);
     float depth = depthTexture.Load(int3(texelCoord, 0));
-    float3 ndcPos = float3(2 * uv - 1.f, depth);
+    float3 ndcPos = float3(2 * uv.x - 1.f, 1.f - 2 * uv.y, depth);
 
     float4 pos = mul(cameraParams.invProj, float4(ndcPos, 1.f));
     return pos.xyz / pos.w;
