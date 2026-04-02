@@ -1,7 +1,7 @@
 # Copyright (C) 2016-2025 by Sascha Willems - www.saschawillems.de
 # This code is licensed under the MIT license (MIT) (http://opensource.org/licenses/MIT)
 #
-# Modified by Liu Linqi (c) 2026
+# Modified by Liu Linqi 2026
 
 cmake_minimum_required(VERSION 3.10.0 FATAL_ERROR)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
