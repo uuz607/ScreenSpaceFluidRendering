@@ -7,11 +7,10 @@
  *
  * This code is licensed under the MIT license (MIT) (http://opensource.org/licenses/MIT)
  *
- * Modifications Copyright (c) 2026 Liu Linqi
  */
+//Modified by Liu Linqi 2026
 
 #pragma once
-
 
 #include <vulkan/vulkan.h>
 #include <vector>
