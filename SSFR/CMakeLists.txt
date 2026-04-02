@@ -1,7 +1,7 @@
 # Copyright (c) 2016-2025, Sascha Willems
 # SPDX-License-Identifier: MIT
 #
-# Modified by Liu Linqi (c) 2026
+# Modified by Liu Linqi 2026
 
 # Function for building single example
 SET(EXAMPLE_FOLDER ${CMAKE_CURRENT_SOURCE_DIR})
